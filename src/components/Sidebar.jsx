@@ -38,7 +38,6 @@ const DesktopSidebar = () => {
 const MobileSidebar = () => {
   return (
     <div className="flex justify-center gap-10 border-t fixed w-full bottom-0 left-0 bg-white z-10 p-2 sm:hidden block">
-      <img src="/logo.svg" alt="" className="" />
       <Link to={"/"}>
         <Home size={"24"} className="cursor-pointer" />
       </Link>
